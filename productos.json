@@ -1,0 +1,29 @@
+{
+    "productos": [
+      {
+        "nombre": "Camiseta Básica",
+        "precio": 20,
+        "imagen": "img/camiseta_lisa.jpg",
+        "descripcion": "Una camiseta básica perfecta para el día a día."
+      },
+      {
+        "nombre": "Camiseta Dibujo",
+        "precio": 25,
+        "imagen": "img/camiseta_estampada.jpg",
+        "descripcion": "Camiseta con un dibujo único y moderno."
+      },
+      {
+        "nombre": "Pantalón Corto",
+        "precio": 30,
+        "imagen": "img/pantalones_cortos.jpg",
+        "descripcion": "Pantalones cortos cómodos para el verano."
+      },
+      {
+        "nombre": "Pantalón Largo",
+        "precio": 35,
+        "imagen": "img/pantalones_largos.jpg",
+        "descripcion": "Pantalones largos ideales para cualquier ocasión."
+      }
+    ]
+  }
+  

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda online de ropa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</head>
+<body>
+    <div id="header-container">
+        <button id="go-to-cart-btn">Ir al carrito</button>
+        <span id="cart-count">0</span> productos
+    </div>
+    <div id="login-container">
+        <h2>Inicia sesión para acceder a la tienda de ropa online</h2>
+        <input type="text" id="username" placeholder="Nombre de usuario">
+        <input type="password" id="password" placeholder="Contraseña">
+        <button id="login-button">Iniciar sesión</button>
+        <p id="message-container"></p>
+    </div>
+    <div id="ecommerce-container" style="display:none;">
+        <h1>Tienda de ropa</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar producto...">
+        </div>
+        
+        <!-- Se mostrarán los productos del archivo producto.json -->
+        <div class="products">
+        </div>
+    </div>
+    <div id="carrito-container" style="display:none;">
+        <h2>Tu carrito de compras</h2>
+        <div id="productos-carrito"></div>
+        <p id="total-carrito"></p>
+        <div style="display: flex; justify-content: flex-end; align-items: center;"> 
+            <button id="volver-tienda">Volver a la tienda</button>
+            <button id="finalizar-compra" class="finalizar-compra" style="display:none;">Finalizar compra</button>
+        </div>
+    </div>
+    <div id="confirmacion-compra" style="display:none;">
+        <h2>¡Gracias por tu compra!</h2>
+        <p>Tu pedido ha sido procesado con éxito.</p>
+        <button id="volver-inicio">Volver a la tienda</button>
+    </div>     
+    <script src="login.js"></script>
+    <script src="carrito.js"></script>
+
+</body>
+</html>
